@@ -7,10 +7,10 @@ var boyImage, boy, rope;
 
 function preload()
 {
-	boyImage = loadImage("Plucking mangoes/boy.png");
-	treeImage = loadImage("Plucking mangoes/tree.png");
-	mango1 = loadImage("Plucking mangoes/mango.png");
-	stoneImage = loadImage("Plucking mangoes/stone.png");
+	boyImage = loadImage("images/boy.png");
+	treeImage = loadImage("images/tree.png");
+	mango1 = loadImage("images/mango.png");
+	stoneImage = loadImage("images/stone.png");
 }
 
 function setup() {
@@ -91,7 +91,7 @@ function mouseDragged(){
 }
 
 function mouseReleased(){
-	rope.released();
+	rope.release();
 }
 
 function keyPressed(){
